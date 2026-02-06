@@ -21,8 +21,8 @@ jobs:
       matrix:
         runner:
          - vps-1
-          - vps-2
-          - vps-3
+         - vps-2
+         - vps-3
          - vps-4
          - vps-5
          - vps-6
