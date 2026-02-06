@@ -1,4 +1,4 @@
-name: Run bash --noTest (55 VPS)
+name: Run bash --noTest (20 VPS)
 
 on:
   workflow_dispatch:
@@ -20,62 +20,26 @@ jobs:
       fail-fast: false
       matrix:
         runner:
-         - vps-1
-         - vps-2
-         - vps-3
-         - vps-4
-         - vps-5
-         - vps-6
-         - vps-7
-         - vps-8
-         - vps-9
-         - vps-10
-         - vps-11
-         - vps-12
-         - vps-13
-         - vps-14
-         - vps-15
-         - vps-16
-         - vps-17
-         - vps-18
-         - vps-19
-         - vps-20
-         - vps-21
-         - vps-22
-         - vps-23
-         - vps-24
-         - vps-25
-         - vps-26
-         - vps-27
-         - vps-28
-         - vps-29
-         - vps-30
-         - vps-31
-         - vps-32
-         - vps-33
-         - vps-34
-         - vps-35
-         - vps-36
-         - vps-37
-         - vps-38
-         - vps-39
-         - vps-40
-         - vps-41
-         - vps-42
-         - vps-43
-         - vps-44
-         - vps-45
-         - vps-46
-         - vps-47
-         - vps-48
-         - vps-49
-         - vps-50
-         - vps-51
-         - vps-52
-         - vps-53
-         - vps-54
-         - vps-55
-
+          - vps-1
+          - vps-2
+          - vps-3
+          - vps-4
+          - vps-5
+          - vps-6
+          - vps-7
+          - vps-8
+          - vps-9
+          - vps-10
+          - vps-11
+          - vps-12
+          - vps-13
+          - vps-14
+          - vps-15
+          - vps-16
+          - vps-17
+          - vps-18
+          - vps-19
+          - vps-20
 
     runs-on:
       - self-hosted
